@@ -2,10 +2,11 @@
   Created by IntelliJ IDEA.
   User: arhor
   Date: 20.9.18
-  Time: 16.12
+  Time: 17.35
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,6 +39,11 @@
         </div>
         <div class="sidebar-wrapper">
             <ul class="nav">
+                <li class="nav-item active  ">
+                    <a class="nav-link" href="/controller?command=entropy">
+                        <p>Entropy</p>
+                    </a>
+                </li>
                 <li class="nav-item active  ">
                     <a class="nav-link" href="/controller?command=approximation">
                         <p>Approximation</p>
@@ -76,7 +82,44 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-
+                    <div class="col-8">
+                        <div class="card">
+                            <div class="card-header card-header-success">
+                                <h3 class="card-title">Information source entropy</h3>
+                            </div>
+                            <div class="card-body">
+                                <form action="/controller" method="POST">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="textarea1">Source text</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <select id="textarea1">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="first">First order</button>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

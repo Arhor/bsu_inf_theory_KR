@@ -39,6 +39,11 @@
         <div class="sidebar-wrapper">
             <ul class="nav">
                 <li class="nav-item active  ">
+                    <a class="nav-link" href="/controller?command=entropy">
+                        <p>Entropy</p>
+                    </a>
+                </li>
+                <li class="nav-item active  ">
                     <a class="nav-link" href="/controller?command=approximation">
                         <p>Approximation</p>
                     </a>
