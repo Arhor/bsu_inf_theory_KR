@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: arhor
-  Date: 19.9.18
-  Time: 15.43
+  Date: 20.9.18
+  Time: 16.12
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -32,14 +32,14 @@
           Tip 2: you can also add an image using data-image tag
       -->
         <div class="logo">
-            <a href="#" class="simple-text logo-normal">
+            <a href="/controller?command=home" class="simple-text logo-normal">
                 HOME
             </a>
         </div>
         <div class="sidebar-wrapper">
             <ul class="nav">
                 <li class="nav-item active  ">
-                    <a class="nav-link" href="/controller?command=approximate">
+                    <a class="nav-link" href="/controller?command=approximation">
                         <p>Approximation</p>
                     </a>
                 </li>
@@ -52,7 +52,7 @@
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
                 <div class="navbar-wrapper">
-                    <a class="navbar-brand" href="#pablo">Dashboard</a>
+                    <%--<a class="navbar-brand" href="#pablo">Dashboard</a>--%>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
@@ -76,37 +76,7 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-10 ml-auto mr-auto">
-                        <div class="card">
-                            <div class="card-header card-header-success">
-                                <h3 class="card-title">Approximation</h3>
-                            </div>
-                            <div class="card-body">
-                                <form action="/controller" method="POST">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="textarea1">Source text</label>
-                                                <textarea class="form-control" name="source" id="textarea1" rows="10">${source}</textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="textarea2">Result text</label>
-                                                <textarea class="form-control" name="result" id="textarea2" rows="10">${result}</textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="first">First order</button>
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="second">Second order</button>
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="third">Third order</button>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -138,10 +108,6 @@
 <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
 <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-<!-- Chartist JS -->
-<script src="assets/js/plugins/chartist.min.js"></script>
-<!--  Notifications Plugin    -->
-<script src="assets/js/plugins/bootstrap-notify.js"></script>
 <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
 <script src="assets/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
 </body>

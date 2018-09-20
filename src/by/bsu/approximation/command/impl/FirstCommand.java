@@ -27,7 +27,7 @@ public class FirstCommand implements ActionCommand {
         request.setAttribute("source", source);
         request.setAttribute("result", result);
 
-        page = ConfigurationManager.getProperty("path.page.main");
+        page = ConfigurationManager.getProperty("path.page.approximation");
 
         router.setPage(page);
         router.setType(Router.Type.FORWARD);

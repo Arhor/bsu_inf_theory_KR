@@ -9,6 +9,16 @@ public enum CommandEnum {
             this.command = new StartCommand();
         }
     },
+    HOME {
+        {
+            this.command = new HomeCommand();
+        }
+    },
+    APPROXIMATION {
+        {
+            this.command = new ApproximationCommand();
+        }
+    },
     FIRST {
         {
             this.command = new FirstCommand();
