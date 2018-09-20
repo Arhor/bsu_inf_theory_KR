@@ -82,38 +82,80 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-8 mr-auto ml-auto">
                         <div class="card">
                             <div class="card-header card-header-success">
                                 <h3 class="card-title">Information source entropy</h3>
                             </div>
                             <div class="card-body">
                                 <form action="/controller" method="POST">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="textarea1">Source text</label>
-                                            </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-1" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
                                         </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <select id="textarea1">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
-                                                    <option>6</option>
-                                                    <option>7</option>
-                                                    <option>8</option>
-                                                    <option>9</option>
-                                                    <option>10</option>
-                                                </select>
-                                            </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-2" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-3" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-4" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-5" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-6" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-7" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-8" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-9" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control text-center" id="prob-10" name="prob" pattern="(1\.0)|(0\.[0-9]{1,2})" />
                                         </div>
                                     </div>
+                                    <div class="form-row text-center">
+                                        <div class="col">
+                                            <label for="prob-1">1</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-2">2</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-3">3</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-4">4</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-5">5</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-6">6</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-7">7</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-8">8</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-9">9</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="prob-10">10</label>
+                                        </div>
+                                    </div>
+                                    ${wrongInput}
                                     <div class="row">
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="first">First order</button>
+                                        <button type="submit" class="btn btn-success col-5 ml-auto mr-auto" name="command" value="setprob">Set probability distribution</button>
                                     </div>
                                     <div class="clearfix"></div>
                                 </form>

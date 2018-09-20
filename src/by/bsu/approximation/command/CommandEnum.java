@@ -19,6 +19,11 @@ public enum CommandEnum {
             this.command = new EntropyCommand();
         }
     },
+    SETPROB {
+        {
+            this.command = new SetProbCommand();
+        }
+    },
     APPROXIMATION {
         {
             this.command = new ApproximationCommand();
