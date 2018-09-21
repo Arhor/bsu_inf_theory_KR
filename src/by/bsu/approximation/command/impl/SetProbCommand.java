@@ -33,7 +33,22 @@ public class SetProbCommand implements ActionCommand {
         double sum = probs.stream().mapToDouble(f -> f).sum();
 
         if (sum == 1.0) {
-            page = ConfigurationManager.getProperty("path.page.entropy"); // STUB
+            page = ConfigurationManager.getProperty("path.page.entropy.result"); // TODO: make page for result
+
+            double minProb = probs.stream().mapToDouble(f -> f).min().getAsDouble();
+            double maxInfAmountRaw = (-1) * Math.log(minProb) / Math.log(2);
+
+            double avgInfAmountRaw = 0;
+            for (double prob : probs) {
+                avgInfAmountRaw += prob * (Math.log(prob) / Math.log(2));
+            }
+            avgInfAmountRaw *= -1;
+
+            double infRedundancy = (maxInfAmountRaw - avgInfAmountRaw) / maxInfAmountRaw;
+
+            request.setAttribute("maxInfAmount", String.format("%.2f", maxInfAmountRaw));
+            request.setAttribute("avgInfAmount", String.format("%.2f", avgInfAmountRaw));
+            request.setAttribute("infRedundancy", String.format("%.2f", infRedundancy));
         } else {
             page = ConfigurationManager.getProperty("path.page.entropy");
             request.setAttribute("wrongInput", "sum of values must be equal 1.0");

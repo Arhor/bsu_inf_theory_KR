@@ -11,6 +11,9 @@ public class SimpleDictBuilder {
 		      .distinct()
 		      .sorted()
 		      .forEach(c -> sb.append(c));
+		if (sb.indexOf(" ") == -1) {
+			sb.insert(0, " ");
+		}
 		return sb.toString();
 	}
 	
