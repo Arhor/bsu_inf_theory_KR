@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66154b3e-ca62-4533-9d1d-5275a9346f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/DecryptCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/controller/listener/SessionListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/by/bsu/approximation/util/encryption/EncryptionActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/encryption.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/modules/sidebar.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/approximation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/approximation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/entropy.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/entropy.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/jsp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/result.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -110,32 +97,35 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="11" />
-          <entry key="jsp" value="7" />
+          <entry key="jsp" value="9" />
           <entry key="properties" value="1" />
+          <entry key="svg" value="1" />
           <entry key="uml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="11" />
-          <entry key="JSP" value="7" />
+          <entry key="JSP" value="9" />
           <entry key="Properties" value="1" />
+          <entry key="SVG" value="1" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1534" />
-          <entry key="jsp" value="109" />
+          <entry key="jsp" value="217" />
           <entry key="jspf" value="38" />
           <entry key="properties" value="21" />
         </counts>
@@ -143,7 +133,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1534" />
-          <entry key="JSP" value="147" />
+          <entry key="JSP" value="255" />
           <entry key="Properties" value="21" />
         </counts>
       </usages-collector>
@@ -151,20 +141,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -198,11 +174,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/entropy.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1122">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jsp/result.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="85" column="106" selection-start-line="85" selection-start-column="106" selection-end-line="85" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -290,7 +284,6 @@
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java" />
         <option value="$PROJECT_DIR$/web/jsp/modules/sidebar.jspf" />
         <option value="$PROJECT_DIR$/web/jsp/entropy.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/result.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/approximation.jsp" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java" />
@@ -298,6 +291,7 @@
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/controller/listener/SessionListenerImpl.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/DecryptCommand.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptCommand.java" />
+        <option value="$PROJECT_DIR$/web/jsp/result.jsp" />
       </list>
     </option>
   </component>
@@ -332,6 +326,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,6 +424,19 @@
               <item name="Approximation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Approximation" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Approximation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Approximation" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Approximation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Approximation" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -455,7 +463,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -634,6 +641,7 @@
       <workItem from="1537642241835" duration="9946000" />
       <workItem from="1537655276637" duration="377000" />
       <workItem from="1537693366913" duration="21000" />
+      <workItem from="1537781194416" duration="714000" />
     </task>
     <servers />
   </component>
@@ -670,13 +678,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43069000" />
+    <option name="totallyTimeSpent" value="43783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.15085287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -686,7 +694,7 @@
       <window_info id="Web" order="7" sideWeight="0.503792" side_tool="true" weight="0.15085287" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33586133" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33586133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -893,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,20 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="94" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/entropy.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1058,6 +1049,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/entropy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/img/H_avg.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="85" column="106" selection-start-line="85" selection-start-column="106" selection-end-line="85" selection-end-column="106" />
         </state>
       </provider>
     </entry>

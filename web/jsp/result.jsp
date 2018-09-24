@@ -73,17 +73,17 @@
                                     <tbody>
                                         <tr>
                                             <td class="text-left">Max information amount of the source</td>
-                                            <td class="text-center">STUB</td>
+                                            <td class="text-center"><img src="../assets/img/H_max.svg" title="maximum entropy"/></td>
                                             <td class="text-center">${maxInfAmount}</td>
                                         </tr>
                                         <tr>
                                             <td class="text-left">Average information amount of the source</td>
-                                            <td class="text-center">STUB</td>
+                                            <td class="text-center"><img src="../assets/img/H_avg.svg" title="average entropy"/></td>
                                             <td class="text-center">${avgInfAmount}</td>
                                         </tr>
                                         <tr>
                                             <td class="text-left">Information redundancy</td>
-                                            <td class="text-center">STUB</td>
+                                            <td class="text-center"><img src="../assets/img/Redundancy.svg" title="information redundancy"/></td>
                                             <td class="text-center">${infRedundancy}</td>
                                         </tr>
                                     </tbody>
