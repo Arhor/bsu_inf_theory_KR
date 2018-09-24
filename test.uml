@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="262.0">by.bsu.approximation.util.encryption.EncryptionAction</node>
+    <node x="0.0" y="143.5">by.bsu.approximation.command.impl.HomeCommand</node>
+    <node x="552.0" y="143.5">by.bsu.approximation.command.impl.ThirdCommand</node>
+    <node x="828.0" y="143.5">by.bsu.approximation.command.impl.SecondCommand</node>
+    <node x="1656.0" y="143.5">by.bsu.approximation.command.impl.EntropyCommand</node>
+    <node x="1932.0" y="143.5">by.bsu.approximation.command.impl.EmptyCommand</node>
+    <node x="2208.0" y="143.5">by.bsu.approximation.command.impl.StartCommand</node>
+    <node x="1104.0" y="0.0">by.bsu.approximation.command.ActionCommand</node>
+    <node x="1380.0" y="143.5">by.bsu.approximation.command.impl.FirstCommand</node>
+    <node x="1096.0" y="313.0">by.bsu.approximation.command.impl.SetProbCommand</node>
+    <node x="276.0" y="143.5">by.bsu.approximation.command.impl.ApproximationCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.bsu.approximation.command.impl.EmptyCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="2060.0" y="81.0" />
+      <point x="1317.3333333333335" y="81.0" />
+      <point x="85.33333333333348" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.HomeCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="128.0" y="71.0" />
+      <point x="1118.2222222222222" y="71.0" />
+      <point x="-113.77777777777783" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.ApproximationCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="404.0" y="81.0" />
+      <point x="1146.6666666666667" y="81.0" />
+      <point x="-85.33333333333326" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.SecondCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="956.0" y="101.0" />
+      <point x="1203.5555555555557" y="101.0" />
+      <point x="-28.444444444444343" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.FirstCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="1508.0" y="101.0" />
+      <point x="1260.4444444444443" y="101.0" />
+      <point x="28.444444444444343" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.ThirdCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="680.0" y="91.0" />
+      <point x="1175.111111111111" y="91.0" />
+      <point x="-56.888888888888914" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.StartCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="2336.0" y="71.0" />
+      <point x="1345.7777777777778" y="71.0" />
+      <point x="113.77777777777783" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.EntropyCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="1784.0" y="91.0" />
+      <point x="1288.888888888889" y="91.0" />
+      <point x="56.888888888888914" y="25.5" />
+    </edge>
+    <edge source="by.bsu.approximation.command.impl.SetProbCommand" target="by.bsu.approximation.command.ActionCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="785.5" y="177.0" />
+  <SelectedNodes>
+    <node>by.bsu.approximation.command.impl.SetProbCommand</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

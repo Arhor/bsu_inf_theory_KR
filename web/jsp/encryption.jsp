@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: arhor
-  Date: 19.9.18
-  Time: 15.43
+  User: Maxim Burishinets
+  Date: 22.09.2018
+  Time: 23:16
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -59,28 +59,33 @@
                     <div class="col-10 ml-auto mr-auto">
                         <div class="card">
                             <div class="card-header card-header-success">
-                                <h3 class="card-title">Approximation</h3>
+                                <h3 class="card-title">RSA encryption</h3>
                             </div>
                             <div class="card-body">
                                 <form action="/controller" method="POST">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-4">
                                             <div class="form-group">
                                                 <label for="textarea1">Source text</label>
                                                 <textarea class="form-control" name="source" id="textarea1" rows="10">${source}</textarea>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-4">
                                             <div class="form-group">
-                                                <label for="textarea2">Result text</label>
-                                                <textarea class="form-control" name="result" id="textarea2" rows="10">${result}</textarea>
+                                                <label for="textarea2">Encrypted text</label>
+                                                <textarea class="form-control" name="encrypted" id="textarea2" rows="10">${encrypted}</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="form-group">
+                                                <label for="textarea3">Decrypted text</label>
+                                                <textarea class="form-control" name="decrypted" id="textarea3" rows="10">${decrypted}</textarea>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="first">First order</button>
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="second">Second order</button>
-                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="third">Third order</button>
+                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="encrypt">Encrypt</button>
+                                        <button type="submit" class="btn btn-success col-3 ml-auto mr-auto" name="command" value="decrypt">Decrypt</button>
                                     </div>
                                     <div class="clearfix"></div>
                                 </form>

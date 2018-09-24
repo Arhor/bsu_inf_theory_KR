@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,33 +26,7 @@
 
 <body class="">
 <div class="wrapper ">
-    <div class="sidebar" data-color="green" data-background-color="white">
-        <!--
-          Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
-
-          Tip 2: you can also add an image using data-image tag
-      -->
-        <div class="logo">
-            <a href="/controller?command=home" class="simple-text logo-normal">
-                HOME
-            </a>
-        </div>
-        <div class="sidebar-wrapper">
-            <ul class="nav">
-                <li class="nav-item active  ">
-                    <a class="nav-link" href="/controller?command=entropy">
-                        <p>Entropy</p>
-                    </a>
-                </li>
-                <li class="nav-item active  ">
-                    <a class="nav-link" href="/controller?command=approximation">
-                        <p>Approximation</p>
-                    </a>
-                </li>
-                <!-- your sidebar here -->
-            </ul>
-        </div>
-    </div>
+    <c:import url="modules/sidebar.jspf" />
     <div class="main-panel">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">

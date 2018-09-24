@@ -7,13 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66154b3e-ca62-4533-9d1d-5275a9346f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/jsp/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/DecryptCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/controller/listener/SessionListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/bsu/approximation/util/encryption/EncryptionActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/encryption.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/modules/sidebar.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/SetProbCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/SetProbCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/approximation/util/SimpleDictBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/approximation/util/SimpleDictBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/approximation/util/impl/ThirdOrderApproximator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/approximation/util/impl/ThirdOrderApproximator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/approximation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/approximation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/entropy.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/entropy.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/result.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,23 +104,81 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-933157970">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="11" />
+          <entry key="jsp" value="7" />
+          <entry key="properties" value="1" />
+          <entry key="uml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="11" />
+          <entry key="JSP" value="7" />
+          <entry key="Properties" value="1" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1534" />
+          <entry key="jsp" value="109" />
+          <entry key="jspf" value="38" />
+          <entry key="properties" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1534" />
+          <entry key="JSP" value="147" />
+          <entry key="Properties" value="21" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="527">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/SetProbCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="986">
+              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,28 +187,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/result.jsp">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/DecryptCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+            <state relative-caret-position="425">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/SimpleDictBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/approximation.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="84" column="42" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -150,8 +210,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/by/bsu/approximation/util/encryption/EncryptionActionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/encryption.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="69" column="91" selection-start-line="69" selection-start-column="85" selection-end-line="69" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -161,10 +242,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TestNG Test Class" />
         <option value="Enum" />
-        <option value="Class" />
+        <option value="TestNG Test Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -198,16 +279,25 @@
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/controller/filter/PageRedirectSecutiryFilter.java" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/controller/filter/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/web/jsp/Enthropy.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/main.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/approximation.jsp" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EntropyCommand.java" />
         <option value="$PROJECT_DIR$/web/jsp/Entropy.jsp" />
-        <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" />
-        <option value="$PROJECT_DIR$/web/jsp/entropy.jsp" />
-        <option value="$PROJECT_DIR$/src/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/SetProbCommand.java" />
-        <option value="$PROJECT_DIR$/web/jsp/result.jsp" />
         <option value="$PROJECT_DIR$/src/by/bsu/approximation/util/SimpleDictBuilder.java" />
+        <option value="$PROJECT_DIR$/test/by/bsu/approximation/util/encryption/EncryptionActionTest.java" />
+        <option value="$PROJECT_DIR$/web/jsp/modules/sidebar.jspf.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java" />
+        <option value="$PROJECT_DIR$/web/jsp/modules/sidebar.jspf" />
+        <option value="$PROJECT_DIR$/web/jsp/entropy.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/result.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/approximation.jsp" />
+        <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java" />
+        <option value="$PROJECT_DIR$/web/jsp/encryption.jsp" />
+        <option value="$PROJECT_DIR$/src/by/bsu/approximation/controller/listener/SessionListenerImpl.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/DecryptCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptCommand.java" />
       </list>
     </option>
   </component>
@@ -242,8 +332,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,6 +435,13 @@
               <item name="Approximation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Approximation" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Approximation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Approximation" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,21 +455,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537539023115" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537654288283" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinalProject" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.bsu.approximation.util.encryption" />
       <recent name="by.bsu.approximation.util" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -418,6 +516,24 @@
       <option name="PACKAGE_NAME" value="by.bsu.approximation.util" />
       <option name="MAIN_CLASS_NAME" value="by.bsu.approximation.util.ApproximatorTest" />
       <option name="METHOD_NAME" value="testApproximate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptionActionTest.testEncryption" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Approximation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bsu.approximation.util.encryption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.bsu.approximation.util.encryption" />
+      <option name="MAIN_CLASS_NAME" value="by.bsu.approximation.util.encryption.EncryptionActionTest" />
+      <option name="METHOD_NAME" value="testEncryption" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -486,9 +602,11 @@
       <item itemvalue="Application.Controller" />
       <item itemvalue="TestNG.ThirdOrderApproximatorTest.testApproximate" />
       <item itemvalue="TestNG.ApproximatorTest.testApproximate" />
+      <item itemvalue="TestNG.EncryptionActionTest.testEncryption" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EncryptionActionTest.testEncryption" />
         <item itemvalue="TestNG.ApproximatorTest.testApproximate" />
         <item itemvalue="TestNG.ThirdOrderApproximatorTest.testApproximate" />
         <item itemvalue="Application.Controller" />
@@ -511,13 +629,15 @@
       <workItem from="1537455215011" duration="2636000" />
       <workItem from="1537466845995" duration="6178000" />
       <workItem from="1537534530758" duration="4198000" />
+      <workItem from="1537548403606" duration="1293000" />
+      <workItem from="1537642123342" duration="18000" />
+      <workItem from="1537642241835" duration="9946000" />
+      <workItem from="1537655276637" duration="377000" />
+      <workItem from="1537693366913" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThirdOrderApproximatorTest_testApproximate - 2018.09.19 at 14h 11m 22s.xml">
-      <configuration name="ThirdOrderApproximatorTest.testApproximate" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ThirdOrderApproximatorTest_testApproximate - 2018.09.19 at 14h 16m 40s.xml">
       <configuration name="ThirdOrderApproximatorTest.testApproximate" configurationId="TestNG" />
     </history-entry>
@@ -539,24 +659,34 @@
     <history-entry file="ApproximatorTest_testApproximate - 2018.09.19 at 15h 32m 03s.xml">
       <configuration name="ApproximatorTest.testApproximate" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="EncryptionActionTest_testEncryption - 2018.09.22 at 22h 45m 44s.xml">
+      <configuration name="EncryptionActionTest.testEncryption" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EncryptionActionTest_testEncryption - 2018.09.22 at 22h 47m 42s.xml">
+      <configuration name="EncryptionActionTest.testEncryption" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EncryptionActionTest_testEncryption - 2018.09.22 at 23h 09m 21s.xml">
+      <configuration name="EncryptionActionTest.testEncryption" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31414000" />
+    <option name="totallyTimeSpent" value="43069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.24318182" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.15085287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5008026" side_tool="true" weight="0.25378788" />
+      <window_info id="Web" order="7" sideWeight="0.503792" side_tool="true" weight="0.15085287" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33601287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33586133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -651,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,13 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/impl/FirstOrderApproximator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -762,44 +882,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/IntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/entropy.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="155" column="48" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="104" column="30" lean-forward="true" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/approximation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="84" column="42" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
+        <state relative-caret-position="425">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/SetProbCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="382">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -807,17 +899,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/result.jsp">
+    <entry file="file://$PROJECT_DIR$/test.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">by.bsu.approximation.util.encryption.EncryptionAction</node>
+            <node x="" y="">by.bsu.approximation.command.impl.HomeCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.ThirdCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.SecondCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.EntropyCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.EmptyCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.StartCommand</node>
+            <node x="" y="">by.bsu.approximation.command.ActionCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.FirstCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.SetProbCommand</node>
+            <node x="" y="">by.bsu.approximation.command.impl.ApproximationCommand</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1248.0" y="177.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/impl/FirstOrderApproximator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+        <state relative-caret-position="531">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/SimpleDictBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/modules/sidebar.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="94" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/entropy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/approximation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/controller/listener/SessionListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/util/encryption/EncryptionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/DecryptCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsu/approximation/util/encryption/EncryptionActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/encryption.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="91" selection-start-line="69" selection-start-column="85" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsu/approximation/command/impl/EncryptionCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

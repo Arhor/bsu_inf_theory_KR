@@ -43,6 +43,21 @@ public enum CommandEnum {
         {
             this.command = new ThirdCommand();
         }
+    },
+    ENCRYPTION {
+        {
+            this.command = new EncryptionCommand();
+        }
+    },
+    ENCRYPT {
+        {
+            this.command = new EncryptCommand();
+        }
+    },
+    DECRYPT {
+        {
+            this.command = new DecryptCommand();
+        }
     };
 
     ActionCommand command;
